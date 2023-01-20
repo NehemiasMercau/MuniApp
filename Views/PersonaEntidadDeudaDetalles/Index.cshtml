@@ -1,0 +1,107 @@
+@model IEnumerable<MuniApp.Negocio.entidades.PersonaEntidadDeudaDetalle>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Pagado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoraDias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Importe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Recargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrePago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anulado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeudaDetalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonaEntidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UsuarioIdAnuloNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pagado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaPago)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoraDias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Importe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Recargo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrePago)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anulado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeudaDetalle.DeudaDetalleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Persona.PersonaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonaEntidad.PersonaEntidadId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UsuarioIdAnuloNavigation.UsuarioRefId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PersonaEntidadDeudaDetalleId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PersonaEntidadDeudaDetalleId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PersonaEntidadDeudaDetalleId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

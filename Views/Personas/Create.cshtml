@@ -1,0 +1,97 @@
+@model MuniApp.Models.PersonaViewModelCustom
+
+@{
+    ViewData["Title"] = "Crear Nueva Persona";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Crear Nueva Persona</h2>
+    </div>
+    <div class="col-md-4">
+        <div>
+            <a asp-action="Index" class="btn btn-warning">Volver al listado</a>
+        </div>
+    </div>
+</div>
+
+<form asp-action="Create" class="form-horizontal form">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Email" class="form-control" autocomplete="off" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nombre" class="control-label  col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Nombre" class="form-control required" autocomplete="off" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Apellido" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Apellido" class="form-control required" autocomplete="off" />
+            <span asp-validation-for="Apellido" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="CUIT" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="CUIT" class="form-control required inputmask" autocomplete="off" />
+            <span asp-validation-for="CUIT" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="DNI" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="DNI" class="form-control" autocomplete="off" />
+            <span asp-validation-for="DNI" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonaTipoId" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <div class="alert alert-info">
+                <p>Si se está registrando como un ciudadano, seleccione 'Física'</p>
+                <p>Si se está registrando como un empresa u organización inscripta, seleccione 'Júrídica'</p>
+            </div>
+            <select asp-for="PersonaTipoId" class="form-control" asp-items="ViewBag.PersonaTipoId"></select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RazonSocial" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="RazonSocial" class="form-control" />
+            <span asp-validation-for="RazonSocial" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Telefono" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <input asp-for="Telefono" class="form-control" digits="true" autocomplete="off" />
+            <span asp-validation-for="Telefono" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonaEstadoId" class="control-label col-md-2"></label>
+        <div class="col-md-10">
+            <select asp-for="PersonaEstadoId" class="form-control" asp-items="ViewBag.PersonaEstadoId"></select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+
+
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

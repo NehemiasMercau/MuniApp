@@ -1,0 +1,109 @@
+@model MuniApp.Negocio.entidades.PagoDetalle
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>PagoDetalle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="PagoDetalleId" />
+            <div class="form-group">
+                <label asp-for="collection_id" class="control-label"></label>
+                <input asp-for="collection_id" class="form-control" />
+                <span asp-validation-for="collection_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="collection_status" class="control-label"></label>
+                <input asp-for="collection_status" class="form-control" />
+                <span asp-validation-for="collection_status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="external_reference" class="control-label"></label>
+                <input asp-for="external_reference" class="form-control" />
+                <span asp-validation-for="external_reference" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="payment_type" class="control-label"></label>
+                <input asp-for="payment_type" class="form-control" />
+                <span asp-validation-for="payment_type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="merchant_order_id" class="control-label"></label>
+                <input asp-for="merchant_order_id" class="form-control" />
+                <span asp-validation-for="merchant_order_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="preference_id" class="control-label"></label>
+                <input asp-for="preference_id" class="form-control" />
+                <span asp-validation-for="preference_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="site_id" class="control-label"></label>
+                <input asp-for="site_id" class="form-control" />
+                <span asp-validation-for="site_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="processing_mode" class="control-label"></label>
+                <input asp-for="processing_mode" class="form-control" />
+                <span asp-validation-for="processing_mode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="merchant_account_id" class="control-label"></label>
+                <input asp-for="merchant_account_id" class="form-control" />
+                <span asp-validation-for="merchant_account_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha" class="control-label"></label>
+                <input asp-for="Fecha" class="form-control" />
+                <span asp-validation-for="Fecha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Activo" class="control-label"></label>
+                <input asp-for="Activo" class="form-control" />
+                <span asp-validation-for="Activo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="total_paid_amount" class="control-label"></label>
+                <input asp-for="total_paid_amount" class="form-control" />
+                <span asp-validation-for="total_paid_amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="net_received_amount" class="control-label"></label>
+                <input asp-for="net_received_amount" class="form-control" />
+                <span asp-validation-for="net_received_amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="transaction_amount" class="control-label"></label>
+                <input asp-for="transaction_amount" class="form-control" />
+                <span asp-validation-for="transaction_amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SecuenciaId" class="control-label"></label>
+                <input asp-for="SecuenciaId" class="form-control" />
+                <span asp-validation-for="SecuenciaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonaId" class="control-label"></label>
+                <select asp-for="PersonaId" class="form-control" asp-items="ViewBag.PersonaId"></select>
+                <span asp-validation-for="PersonaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

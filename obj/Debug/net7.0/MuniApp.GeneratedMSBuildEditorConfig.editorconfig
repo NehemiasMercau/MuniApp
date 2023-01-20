@@ -1,0 +1,357 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MuniApp
+build_property.RootNamespace = MuniApp
+build_property.ProjectDir = c:\Users\Nehemias\nehe-repo\core\MuniApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Nehemias\nehe-repo\core\MuniApp
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Arqueos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWVvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Arqueos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWVvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Arqueos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWVvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Arqueos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWVvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Arqueos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJxdWVvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetRoles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0Um9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetRoles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0Um9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetRoles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0Um9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetRoles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0Um9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0Um9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetUsers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/AspNetUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNwTmV0VXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Cobros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29icm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Cobros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29icm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Cobros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29icm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Cobros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29icm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Cobros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29icm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/DeudaDetalles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFEZXRhbGxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/DeudaDetalles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFEZXRhbGxlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/DeudaDetalles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFEZXRhbGxlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/DeudaDetalles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFEZXRhbGxlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/DeudaDetalles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFEZXRhbGxlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Deudas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Deudas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Deudas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Deudas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Deudas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV1ZGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Domicilios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Domicilios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Domicilios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Domicilios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Domicilios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9taWNpbGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Entidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Entidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Entidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Entidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Entidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW50aWRhZGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Eventualidades/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnR1YWxpZGFkZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Eventualidades/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnR1YWxpZGFkZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Eventualidades/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnR1YWxpZGFkZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Eventualidades/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnR1YWxpZGFkZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Eventualidades/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnR1YWxpZGFkZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PagoDetalles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb0RldGFsbGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PagoDetalles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb0RldGFsbGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PagoDetalles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb0RldGFsbGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PagoDetalles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb0RldGFsbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PagoDetalles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb0RldGFsbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Pagos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Pagos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Pagos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Pagos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Pagos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Periodos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Periodos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Periodos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Periodos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Periodos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaW9kb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PersonaEntidadDeudaDetalles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYUVudGlkYWREZXVkYURldGFsbGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PersonaEntidadDeudaDetalles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYUVudGlkYWREZXVkYURldGFsbGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PersonaEntidadDeudaDetalles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYUVudGlkYWREZXVkYURldGFsbGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PersonaEntidadDeudaDetalles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYUVudGlkYWREZXVkYURldGFsbGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/PersonaEntidadDeudaDetalles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYUVudGlkYWREZXVkYURldGFsbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Personas/_Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcX0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Rubros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicm9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Rubros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicm9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Rubros/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicm9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Rubros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicm9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Rubros/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUnVicm9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Shared/_Hora.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib3JhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Nehemias/nehe-repo/core/MuniApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-o3jzkukpx7

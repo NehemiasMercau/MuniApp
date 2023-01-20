@@ -1,0 +1,88 @@
+@model IEnumerable<MuniApp.Negocio.entidades.Persona>
+
+<table id="tablePersonas" class="table datatable table-responsive" data-excel="true" data-pdf="true" data-imprimir="true">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                CUIT/CUIL
+            </th>
+            <th>
+                R/S
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                Creación
+            </th>
+            <th>
+                Estado
+            </th>
+            <th>
+                Persona
+            </th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PersonaId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td nowrap="">
+                    @Html.DisplayFor(modelItem => item.CUIT)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RazonSocial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @{ string parameterValue = item.FechaAlta.Value.ToString("dd-MM-yyyy"); } @Html.DisplayFor(modelItem => parameterValue)
+                </td>
+                <td>
+                    @if (item.PersonaEstadoId == (int)MuniApp.Negocio.enumeradores.PersonaEstadoE.Disponible)
+                    {
+                        @Html.CheckBox("PersonaEstado", true, new { @disabled = "disabled" })
+                    }
+                    else
+                    {
+                        @Html.CheckBox("PersonaEstado", false, new { @disabled = "disabled" })
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PersonaTipo.Nombre)
+                </td>
+                    <td>
+                        <div class="btn-group">
+                            <a asp-action="Edit" class="btn btn-info btn-sm" asp-route-id="@item.PersonaId">Editar</a>
+                            <a asp-action="DetallePersona" asp-controller="Deudas" class="btn btn-secondary btn-sm"
+                            asp-route-id="@item.PersonaId">Deudas</a>
+                            <a asp-action="IndexPersona" asp-controller="Domicilios" class="btn btn-success btn-sm"
+                            asp-route-id="@item.PersonaId">Domicilio</a>
+                            <a asp-action="Delete" class="btn btn-danger btn-sm" asp-route-id="@item.PersonaId">Eliminar</a>
+                        </div>
+
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>

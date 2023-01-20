@@ -1,0 +1,7 @@
+{
+    "scripts":{
+        "db": "dotnet ef dbcontext scaffold \"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=ODAMuniDB;Data Source=localhost\\SQLEXPRESS;Encrypt=False\" \"Microsoft.EntityFrameworkCore.SqlServer\" --context-dir \"Negocio\\entidades\" --output-dir \"Negocio\\entidades\" --use-database-names --no-pluralize  --force --no-build",
+        "codegenerator": "bash ./script.sh",
+        "dev": "dotnet watch run"
+    }
+}

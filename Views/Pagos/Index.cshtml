@@ -1,0 +1,101 @@
+@model IEnumerable<MuniApp.Negocio.entidades.Pago>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Referencia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PagoReferencia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Monto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MontoNeto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CobroDetalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstadoPago)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PagoDetalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PagoTipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PersonaEntidadDeutaDetalle)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Referencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PagoReferencia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Monto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MontoNeto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CobroDetalle.CobroDetalleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstadoPago.EstadoPagoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PagoDetalle.PagoDetalleId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PagoTipo.PagoTipoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonaEntidadDeutaDetalle.PersonaEntidadDeudaDetalleId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PagoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PagoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PagoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,104 @@
+@model MuniApp.Negocio.entidades.Arqueo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Arqueo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ArqueoId" />
+            <div class="form-group">
+                <label asp-for="FechaInicio" class="control-label"></label>
+                <input asp-for="FechaInicio" class="form-control" />
+                <span asp-validation-for="FechaInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraInicio" class="control-label"></label>
+                <input asp-for="HoraInicio" class="form-control" />
+                <span asp-validation-for="HoraInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoraFin" class="control-label"></label>
+                <input asp-for="HoraFin" class="form-control" />
+                <span asp-validation-for="HoraFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaFin" class="control-label"></label>
+                <input asp-for="FechaFin" class="form-control" />
+                <span asp-validation-for="FechaFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Total" class="control-label"></label>
+                <input asp-for="Total" class="form-control" />
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Faltante" class="control-label"></label>
+                <input asp-for="Faltante" class="form-control" />
+                <span asp-validation-for="Faltante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sobrante" class="control-label"></label>
+                <input asp-for="Sobrante" class="form-control" />
+                <span asp-validation-for="Sobrante" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Observaciones" class="control-label"></label>
+                <input asp-for="Observaciones" class="form-control" />
+                <span asp-validation-for="Observaciones" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Abierto" /> @Html.DisplayNameFor(model => model.Abierto)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Iniciado" class="control-label"></label>
+                <input asp-for="Iniciado" class="form-control" />
+                <span asp-validation-for="Iniciado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Finalizado" class="control-label"></label>
+                <input asp-for="Finalizado" class="form-control" />
+                <span asp-validation-for="Finalizado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalEfectivo" class="control-label"></label>
+                <input asp-for="TotalEfectivo" class="form-control" />
+                <span asp-validation-for="TotalEfectivo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioIncioId" class="control-label"></label>
+                <select asp-for="UsuarioIncioId" class="form-control" asp-items="ViewBag.UsuarioIncioId"></select>
+                <span asp-validation-for="UsuarioIncioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UsuarioFinalizoId" class="control-label"></label>
+                <select asp-for="UsuarioFinalizoId" class="form-control" asp-items="ViewBag.UsuarioFinalizoId"></select>
+                <span asp-validation-for="UsuarioFinalizoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Activo" class="control-label"></label>
+                <input asp-for="Activo" class="form-control" />
+                <span asp-validation-for="Activo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

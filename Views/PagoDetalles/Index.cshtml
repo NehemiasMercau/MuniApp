@@ -1,0 +1,125 @@
+@model IEnumerable<MuniApp.Negocio.entidades.PagoDetalle>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.collection_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.collection_status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.external_reference)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.payment_type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.merchant_order_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.preference_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.site_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.processing_mode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.merchant_account_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fecha)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.total_paid_amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.net_received_amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.transaction_amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SecuenciaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Persona)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.collection_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.collection_status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.external_reference)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.payment_type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.merchant_order_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.preference_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.site_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.processing_mode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.merchant_account_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fecha)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.total_paid_amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.net_received_amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.transaction_amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SecuenciaId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Persona.PersonaId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PagoDetalleId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PagoDetalleId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PagoDetalleId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,135 @@
+@model IEnumerable<MuniApp.Models.DeudasViewModels>
+
+@{
+    ViewData["Title"] = "Listado de Deudas";
+}
+<div class="row">
+    <div class="col-md-12">
+        <h2>Listado de Deudas</h2>
+
+        <p>
+            <a asp-action="Create" class="btn btn-outline btn-primary">Crear Nueva Deuda</a>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-warning pull-right">Volver al listado</a>
+        </p>
+        <hr />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="table-responsive" id="divTable">
+            <table id="tableFiltro" class="table datatable table-responsive" data-excel="true" data-pdf="true"
+                data-imprimir="true">
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Rubro)
+                        </th>
+                        <th>
+                            Año
+                        </th>
+                        <th>
+                            Padrón
+                        </th>
+                        <th>
+                            Tipo de Persona
+                        </th>
+                        <th>
+                            Tipo de Período
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Monto)
+                        </th>
+                        <th>
+                            Interés (%)
+                        </th>
+                        <th>
+                            Día de Vencimiento
+                        </th>
+                        <th>
+                            Fecha de Vencimiento
+                        </th>
+                        <th>
+                            Observ
+                        </th>
+                        <th>
+                            Acciones
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeudaId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Rubro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Anio)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Padron)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PersonaTipo)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.PeriodoTipo)
+                            </td>
+                            <td>
+                                @{
+                                    string monto = item.Monto.ToString().Replace(",", ".");
+                                }
+                                $@monto
+                                @*@Html.DisplayFor(modelItem => item.Monto)*@
+                            </td>
+                            <td>
+                                @{
+                                    string interes = item.Interes.ToString().Replace(",", ".");
+                                }
+                                $@interes
+                                @*@Html.DisplayFor(modelItem => item.Interes)*@
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DiaVencimiento)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FechaVencimiento)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Observ)
+                            </td>
+                            <td>
+                                <div class="btn-group">
+                                    <a asp-action="Index" asp-controller="DeudaDetalles" asp-route-id="@item.DeudaId"
+                                    class="btn btn-primary btn-sm">Detalles</a>
+                                    <a asp-action="Delete" asp-route-id="@item.DeudaId"
+                                    class="btn btn-danger btn-sm">Eliminar</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        reloadDatatable();
+    })
+
+
+</script>
+
+}

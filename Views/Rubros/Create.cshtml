@@ -1,0 +1,39 @@
+@model MuniApp.Negocio.entidades.Rubro
+
+@{
+    ViewData["Title"] = "Crear Nuevo Rubro";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Crear Nuevo Rubro</h2>
+    </div>
+    <div class="col-md-4">
+        <div>
+            <a asp-action="Index" class="btn btn-warning">Volver al listado</a>
+
+        </div>
+    </div>
+</div>
+
+<div class="form-horizontal ">
+    <hr />
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group col-md-4">
+                <label asp-for="Nombre" class="control-label col-md-2"></label>
+                <input asp-for="Nombre" class="form-control " />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Crear Rubro" class="btn btn-outline-success" />
+                </div>
+            </div>
+        </form>
+</div>
+
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
